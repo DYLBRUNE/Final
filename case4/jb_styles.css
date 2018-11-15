@@ -167,11 +167,6 @@ a#navicon {
     section {
         display: none;
     }
-	
-    aside#centerNavigation {
-	-webkit-order: 99;
-	order: 99;
-    }
 
     aside h1 {
         display: block;
@@ -246,6 +241,11 @@ a#navicon {
     article {
         padding-top: 5px;
         clear: both;
+    }
+	
+    aside#centerNavigation {
+	-webkit-order: 99;
+	order: 99;
     }
 	
     footer {
