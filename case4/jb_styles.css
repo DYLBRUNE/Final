@@ -159,15 +159,6 @@ a#navicon {
         color: rgb(211, 211, 211);
         background-color: rgb(51, 51, 51);
     }
-	
-    body {
-	-webkit-order: 99;
-	order: 99;
-
-    body > footer {
-        -webkit-order: 100;
-        order: 100;
-    }
 
     header img#logo {
         width: 100%;
@@ -175,6 +166,11 @@ a#navicon {
 
     section {
         display: none;
+    }
+	
+    aside#centerNavigation {
+	-webkit-order: 99;
+	order: 99;
     }
 
     aside h1 {
@@ -250,6 +246,11 @@ a#navicon {
     article {
         padding-top: 5px;
         clear: both;
+    }
+	
+    footer {
+	-webkit-order: 100;
+	order: 100;
     }
 
     footer a {
