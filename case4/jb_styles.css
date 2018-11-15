@@ -242,13 +242,13 @@ a#navicon {
         padding-top: 5px;
         clear: both;
     }
-	
-    aside#centerNavigation {
+
+    footer a {
 	-webkit-order: 99;
 	order: 99;
     }
 	
-    footer {
+    footer h2 p {
 	-webkit-order: 100;
 	order: 100;
     }
