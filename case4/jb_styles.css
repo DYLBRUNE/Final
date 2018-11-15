@@ -37,6 +37,14 @@ body {
    max-width: 1024px;
    margin: 0px auto;
    box-shadow: rgb(51, 51, 51) 10px 10px 25px, rgb(51, 51, 51) -10px 10px 25px;
+   display: -webkit-box;
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+   
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
 }
 
 body > header {
@@ -103,6 +111,7 @@ aside#centerNavigation {
    background-color: rgb(211, 211, 211);
    padding-left: 15px;
    padding-bottom: 20px;
+   height: auto;
 }
 
 aside#centerNavigation h1 {
@@ -159,6 +168,15 @@ a#navicon {
         color: rgb(211, 211, 211);
         background-color: rgb(51, 51, 51);
     }
+    
+    body > footer {
+        -webkit-order: 100;
+        order: 100;
+    }
+    
+    header {
+        width: 100%;
+    }
 
     header img#logo {
         width: 100%;
@@ -166,6 +184,12 @@ a#navicon {
 
     section {
         display: none;
+    }
+    
+    aside {
+        -webkit-order: 99;
+        order: 99;
+        width: 100%;
     }
 
     aside h1 {
@@ -243,20 +267,10 @@ a#navicon {
         clear: both;
     }
 
-    footer > a {
-	-webkit-order: 99;
-	order: 99;
-    }
-	
-    aside#centerNavigation {
-	-webkit-order: 100;
-	order: 100;
-    }
-
     footer a {
         display: block;
         color: black;
-        font-size: 1.em;
+        font-size: 1.3em;
         border:  1px solid rgb(102, 179, 255);
         border-radius: 50px;
         padding: 5px 5px 5px 5px;
