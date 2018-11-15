@@ -248,7 +248,7 @@ a#navicon {
 	order: 99;
     }
 	
-    footer {
+    aside#centerNavigation {
 	-webkit-order: 100;
 	order: 100;
     }
