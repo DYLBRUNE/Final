@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 4
+   Case Problem 4
+   
+   Browyer Realty Layout Styles
+   Author: Dylan Brune & Travis Avenevoli
+   Date: Oct. 30, 2018
+	
+   Filename: br_styles.css
+
+*/
+
+/* Structural Styles */
+
+div, header, h1, h2, nav, p, img, section, article, footer {
+    display: block;
+}
+
+/* Typographic Styles */
+
+body, footer, h1, header, div, html, img, li, nav, p, section, ul {
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* HTML Styles */
+
+html {
+    background-image: url(br_paper.png);
+    background-attachment: fixed;
+}
+
+/* Body Styles */
+
+body {
+    font-family: 'Times New Roman', serif;
+    min-width: 640px;
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    background: radial-gradient(rgb(153, 153, 153), white);
+    
+}
+
+/* Navigation Styles */
+
+nav > img {
+    width: 100%;
+}
+
+nav li {
+    width: 20%;
+    float: left;
+    text-align: center;
+    background-color: rgba(255, 204, 153, 0.6);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom: 3px solid black;
+    box-shadow: rgb(0, 0, 0) -1px -10px 5px;
+}
+
+/* Section Styles */
+
+section {
+    margin: 5px;
+    padding: 5px;
+    float: left;
+}
+
+section h1 {
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 15px;
+    text-decoration: underline;
+    color: rgb(0, 75, 255);
+    text-shadow: rgb(0, 0, 0) -5px -5px 15px;
+}
+
+/* Section Image Styles */
+
+section img {
+    border-radius: 15px;
+    box-shadow: rgb(0, 0, 0) -5px -10px 15px;
+}
+
+section#front img {
+    transform: perspective(300px);
+    transform: rotate3d(30, -30, 0, 30deg);
+}
+
+section#side img {
+    transform: perspective(300px);
+    transform: rotate3d(30, 30, 0, 30deg);
+}
+
+section#dining img {
+    -webkit-filter: brightness(2.3);
+    filter: brightness(2.3);
+}
+
+section#b1 img {
+    transform: perspective(300px);
+    transform: rotate3d(-30, -30, 0, 30deg);
+}
+
+section#b3 img {
+    -webkit-filter: brightness(2);
+    filter: brightness(2);
+    transform: perspective(300px);
+    transform: rotate3d(-30, 30, 0, 30deg);
+}
+
+/* Article Styles */
+
+article {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-size: 1.1em;
+    line-height: 1.3em;
+}
+
+article h2 {
+    padding-left: 30px;
+    text-decoration: underline;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+article li {
+    padding-left: 30px;
+    list-style-type: circle;
+}
+
+/* Div Styles */
+
+div a {
+    width: 25%;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(255, 204, 153, 0.6);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top: 3px solid black;
+    border-bottom: 1.5px solid black;
+}
+
+/* Footer Styles */
+
+footer {
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    font-size: 1.05em;
+    background: linear-gradient(60deg, white, rgb(153, 153, 153), rgba(255, 204, 153, 0.6));
+}
+
+
