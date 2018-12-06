@@ -1,7 +1,8 @@
 @charset "utf-8";
 /*  */
 html {
-    background-color: #BBBBBB;
+    background: url('../brighthtml.jpg') repeat 10% 35%;
+    height: 100%;
 }
 
 body {
@@ -20,10 +21,31 @@ header, ul, nav, li, a {
     box-sizing: border-box;
 }
 
-img {
+header img {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
-nav {
+nav#top ul {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+nav#top ul li {
+    text-align: center;
+    font-size: 2.2em;
+    -webkit-flex: 1 1 130px;
+    flex: 1 1 130px;
+}
+
+nav#leftNavigation {
+    float: left;
+}
