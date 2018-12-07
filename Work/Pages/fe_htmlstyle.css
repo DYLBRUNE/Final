@@ -1,7 +1,7 @@
 @charset "utf-8";
 /*  */
 html {
-    background: url();
+    background: url("../../brighthtml.jpg") no-repeat fixed 11% 30%;
     height: 100%;
 }
 
