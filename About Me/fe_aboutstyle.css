@@ -22,7 +22,7 @@ header, ul, nav, li, a {
 }
 
 header h1 {
-    background: url(../banner.jpg) no-repeat fixed;
+    background: url("../banner.jpg") no-repeat fixed;
     background-repeat: round;
     width: 100%;
     margin-left: auto;
