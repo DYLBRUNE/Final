@@ -1,7 +1,7 @@
 @charset "utf-8";
 /*  */
 html {
-    background: url('./brighthtml.jpg') repeat 10% 35%;
+    background: url('./brighthtml.jpg') no-repeat fixed -3300px 0px;
     height: 100%;
 }
 
@@ -25,6 +25,11 @@ header img {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+}
+
+nav#top {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 nav#top ul {
