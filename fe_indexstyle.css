@@ -21,10 +21,17 @@ header, ul, nav, li, a {
     box-sizing: border-box;
 }
 
-header img {
+header h1 {
+    background: url(./banner.jpg) no-repeat fixed;
+    background-repeat: round;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    text-align: center;
+    color: white;
+    font-size: 3.5em;
 }
 
 nav#top {
