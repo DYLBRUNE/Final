@@ -79,13 +79,32 @@ div.row::after {
 /* Grid Columns Styles */
 
 div[class^="col-"] {
-  border-top: 6px inset rgb(191,190,190);
-    text-align: center;
-    float: left;
+  border: 6px inset rgb(191, 190, 190);
+  text-align: center;
+  float: left;
 }
 
-h2 {
-    position: center;
+main > div.grid_container > div.row > div[class^="col-"]:hover {
+  box-shadow: rgb(0, 0, 0) 5px 5px 10px;
+}
+
+div[class^="col-"] h2 {
+  font-size: 1.3em;
+  position: center;
+  text-decoration: underline;
+}
+
+main img {
+  max-height: 230px;
+  max-width: 1000px;
+  overflow: hidden;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+main > div.grid_container > div.row > div[class^="col-"] > a > img:hover,
+main > div.grid_container > div.row > div[class^="col-"] > a > img:active {
+  box-shadow: rgb(0, 0, 0) 5px 5px 10px;
 }
 
 div.col-1-1 {
@@ -98,11 +117,8 @@ div.col-2-1 {width: 33.33%;}
 div.col-2-2 {width: 33.33%;}
 div.col-2-3 {width: 33.33%;}
 
-
-/* Grid Outline Styles */
-
-main {
-    border: 6px inset rgb(191,190,190);
+footer {
+  text-align: center;
 }
 
 /*
