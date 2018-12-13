@@ -23,6 +23,11 @@ body {
   background-image: url(https://c1.staticflickr.com/9/8065/8252325805_145ee188da_b.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
+  max-width: 1024px;
+  min-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Navigation Styles */
