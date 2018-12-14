@@ -4,11 +4,11 @@
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 4
    Case Problem 4
-   
+
    Browyer Realty Layout Styles
    Author: Dylan Brune & Travis Avenevoli
    Date: Oct. 30, 2018
-	
+
    Filename: br_styles.css
 
 */
@@ -48,7 +48,6 @@ body {
     margin-left: auto;
     background-color: white;
     background: radial-gradient(rgb(153, 153, 153), white);
-    
 }
 
 /* Navigation Styles */
@@ -170,5 +169,3 @@ footer {
     font-size: 1.05em;
     background: linear-gradient(60deg, white, rgb(153, 153, 153), rgba(255, 204, 153, 0.6));
 }
-
-

@@ -14,7 +14,7 @@ footer, header, main, nav {
 address, article, aside, blockquote, body, cite,
 div, dl, dt, dd, em, figcaption, figure, footer,
 h1, h2, h3, h4, h5, h6, header, html, img,
-li, main, nav, nav a, ol, p, section, span, table, ul {
+li, main, nav, a, ol, p, section, span, table, ul {
    margin: 0;
    padding: 0;
    border: 0;
@@ -25,7 +25,6 @@ li, main, nav, nav a, ol, p, section, span, table, ul {
    -moz-box-sizing: border-box;
    box-sizing: border-box;
 }
-
 
 /* Set the default page element styles */
 
