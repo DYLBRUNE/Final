@@ -26,8 +26,8 @@ header h1 {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 115px;
-    padding-bottom: 115px;
+    padding-top: 130px;
+    padding-bottom: 130px;
     text-align: center;
     color: white;
     font-size: 3.5em;
@@ -136,7 +136,7 @@ footer ul {
 }
 
 footer a {
-  color: rgba(255, 165, 0, 0.6);
+  color: rgba(255, 60, 0, 0.9);
   text-decoration: none;
   font-size: 1.2em;
 }

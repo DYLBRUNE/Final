@@ -36,11 +36,6 @@ ul, ol {
    list-style: none;
 }
 
-nav ul {
-   list-style: none;
-   list-style-image: none;
-}
-
 nav a {
    list-style: none;
    text-decoration: none;
