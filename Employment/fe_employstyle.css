@@ -1,0 +1,190 @@
+@charset "utf-8";
+/*  */
+html {
+    background: url('../brighthtml.jpg') no-repeat fixed 60% 0%;
+    /*  */
+}
+
+body {
+  font-family: 'Verdana', Sans-serif;
+    background: radial-gradient(rgb(153, 153, 153), white);
+    width: 100%;
+    max-width: 1100px;
+    min-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    box-shadow: rgb(0, 0, 0) 30px 0px 100px,
+                rgb(0, 0, 0) -30px 0px 100px;
+}
+
+header h1 {
+    background: url("../banner.jpg") no-repeat fixed;
+    /*  */
+    background-repeat: round;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    text-align: center;
+    color: white;
+    font-size: 3.5em;
+}
+
+nav#top {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav#top ul {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+nav#top ul li {
+    text-align: center;
+    font-size: 2.2em;
+    -webkit-flex: 1 1 130px;
+    flex: 1 1 130px;
+    font-size: 2em;
+}
+
+body header a {
+  color: black;
+}
+
+body > header > nav > ul > li > a:hover,
+body > header > nav > ul > li > a:active {
+  text-shadow: rgb(0, 0, 0) 5px 5px 10px;
+  color: rgba(255, 165, 0, 0.6);
+}
+
+aside nav#leftNavigation {
+  width: 100%;
+  background-color: #999999;
+}
+
+aside nav#leftNavigation ul li {
+  border: 3px solid rgba(255, 165, 0, 0.6);
+  border-radius: 10px;
+  width: 16.66%;
+  float: left;
+  text-align: center;
+  padding-top: 0.3%;
+  padding-bottom: 0.3%;
+  font-size: 1.3em;
+  background-color: #999999;
+}
+
+aside nav#leftNavigation a {
+  color: black;
+  font-size: 1.3em;
+}
+
+aside > nav#leftNavigation > ul > li:hover,
+aside > nav#leftNavigation > ul > li:active {
+  box-shadow: rgb(0, 0, 0) 5px 5px 5px;
+  border: 3px double rgba(255, 165, 0, 0.6);
+}
+
+aside > nav#leftNavigation > ul > li > a:hover,
+aside > nav#leftNavigation > ul > li > a:active {
+  text-shadow: rgb(0, 0, 0) 5px 5px 10px;
+  color: rgba(255, 165, 0, 0.6);
+}
+
+article {
+  font-size: 1.3em;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 6%;
+  padding-top: 6.5%;
+}
+
+article p {
+  margin-left: 1.3%;
+  margin-right: 1.3%;
+  line-height: 2em;
+}
+
+figure {
+  font-size: 1.1em;
+  font-family: 'Times New Roman', Times, serif;
+    width: 33%;
+    margin: auto;
+    margin-top: 4.2%;
+}
+
+figure img {
+  width: 100%;
+    background: rgb(153, 153, 153);
+    box-shadow: black 5px 5px 10px;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+figcaption {
+  text-align: center;
+  width: 85%;
+  background: rgb(153, 153, 153);
+  box-shadow: black 5px 5px 10px;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  line-height: 1.3em;
+}
+
+figcaption a {
+  color: rgb(255, 165, 0);
+  text-decoration: none;
+}
+
+article > figure > figcaption > a > strong:hover,
+article > figure > figcaption > a > strong:active {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+p::first-letter {
+  padding-left: 2%;
+}
+
+footer {
+  background-color: rgb(153, 153, 153);
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+footer h2 {
+  background-color: rgb(153, 153, 153);
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-decoration: underline;
+  font-size: 1.3em;
+}
+
+footer ul {
+  font-size: 1.1em;
+}
+
+footer a {
+  color: rgb(255, 165, 0);
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+footer > nav > ul > li > a:hover,
+footer > nav > ul > li > a:active {
+  color: rgba(255, 255, 255, 0.6);
+}
