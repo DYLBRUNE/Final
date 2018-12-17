@@ -11,7 +11,7 @@ footer, header, main, nav {
    display: block;
 }
 
-address, article, aside, blockquote, body, cite,
+address, article, aside, blockquote, body, cite, caption,
 div, dl, dt, dd, em, figcaption, figure, footer,
 h1, h2, h3, h4, h5, h6, header, html, img,
 li, main, nav, a, ol, p, section, span, table, ul {
@@ -30,6 +30,10 @@ li, main, nav, a, ol, p, section, span, table, ul {
 
 body {
    line-height: 1.2em;
+}
+
+nav#top {
+  line-height: 2em;
 }
 
 ul, ol {

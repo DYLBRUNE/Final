@@ -1,244 +1,267 @@
 @charset "utf-8";
 /*  */
+
+/* Import Basic Design Styles Used on All Screens */
+
+@import url("./navicon.css");
+
 html {
     background: url('./brighthtml.jpg') no-repeat fixed 60% 0%;
     /*  */
 }
 
-body {
-  font-family: 'Verdana', Sans-serif;
-  background: rgb(179, 179, 179);
+header h1 {
   width: 100%;
-  max-width: 1100px;
-  min-width: 720px;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: rgb(0, 0, 0) 30px 0px 100px,
-              rgb(0, 0, 0) -30px 0px 100px;
-}
-
-header h1 {
-    background: url("./banner.jpg") no-repeat fixed;
-    /*  */
-    background-repeat: round;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 130px;
-    padding-bottom: 130px;
-    text-align: center;
-    color: white;
-    font-size: 3.5em;
-}
-
-nav#top {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-nav#top ul {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-
-
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
+  text-align: center;
+  color: white;
+  font-size: 3.5em;
 }
 
 nav#top ul li {
-    text-align: center;
-    font-size: 2.2em;
-    -webkit-flex: 1 1 130px;
-    flex: 1 1 130px;
-    font-size: 2em;
-}
-
-body header a {
-  color: black;
-}
-
-body > header > nav > ul > li > a:hover,
-body > header > nav > ul > li > a:active {
-  text-shadow: rgb(0, 0, 0) 5px 5px 10px;
-  color: rgba(255, 165, 0, 0.6);
-}
-
-section h1 {
   text-align: center;
-  text-decoration: underline;
-  font-size: 2em;
-  padding-top: 1%;
-  padding-bottom: 1%;
-}
-
-main h1 {
-  border: 3px solid rgba(255, 165, 0, 0.6);
-  border-bottom: 3px solid grey;
-  text-align: center;
-  font-size: 1.3em;
-  padding-top: 0.3%;
-  padding-bottom: 0.3%;
-}
-
-div[class^="col-"] {
-  border: 6px inset rgb(191, 190, 190);
-  background: radial-gradient(rgb(153, 153, 153), rgba(255, 165, 0, 0.6));
-  text-align: center;
-  float: left;
-}
-
-main > div.grid_container > div.row > div[class^="col-"]:hover,
-main > div.grid_container > div.row > div[class^="col-"]:active {
-  box-shadow: rgb(0, 0, 0) 5px 5px 10px;
-}
-
-div[class^="col-"] h2 {
-  font-size: 1.3em;
-  position: center;
-  text-decoration: underline;
-  padding-top: 1%;
-}
-
-div[class^="col-"] img {
-  max-height: 240px;
-  max-width: 1000px;
-  overflow: hidden;
-  margin-top: 3%;
-  margin-bottom: 3%;
-  border: inset 2px black;
-  border-radius: 10px;
-}
-
-main > div.grid_container > div.row > div[class^="col-"] > a > img:hover,
-main > div.grid_container > div.row > div[class^="col-"] > a > img:active {
-  box-shadow: rgb(0, 0, 0) 5px 5px 10px;
-}
-
-div.col-1-1 {width: 33.33%;}
-div.col-1-2 {width: 33.33%;}
-div.col-1-3 {width: 33.33%;}
-div.col-2-1 {width: 33.33%;}
-div.col-2-2 {width: 33.33%;}
-div.col-2-3 {width: 33.33%;}
-
-footer {
-  height: 100%;
-  background-color: rgb(153, 153, 153);
-  text-align: center;
-  padding-bottom: 0.3%;
-}
-
-footer h2 {
-  padding-top: 55%;
-  padding-bottom: 1%;
-  text-decoration: underline;
-  font-size: 1.3em;
-}
-
-footer ul {
-  font-size: 1.1em;
-}
-
-footer a {
-  color: rgb(255, 165, 0);
-  text-decoration: none;
-  font-size: 1.2em;
-}
-
-footer > nav > ul > li > a:hover,
-footer > nav > ul > li > a:active {
-  color: rgba(255, 255, 255, 0.6);
 }
 
 @media only screen and (max-width: 640px) {
 
-
-
   body {
-
     width: 100%;
-
     box-shadow: inset gray 10px 0px 25px, inset gray -10px 0px 25px;
-
   }
 
-
+  header h1 {
+    background-color: rgb(179, 179, 179);
+    line-height: 1em;
+  }
 
   a#navicon {
-
     display: block;
-
   }
 
-
-
-  table.mnav, table.nav, table.image {
-
-    display: none;
-
+  nav#top {
+    background-color: rgb(70, 70, 70);
   }
 
+  nav#top a {
+    color: rgb(255, 165, 0);
+    font-size: 1.5em;
+  }
 
+  body > header > nav > ul > li:hover,
+  body > header > nav > ul > li:active {
+    background-color: rgb(128, 128, 128);
+  }
 
-  header {
+  section h1 {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 1em;
+  }
 
+  section, main {
     width: 100%;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  main h1, div[class^="col-"] h2 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  div[class^="col-"] {
+    border-top: 3px dotted rgb(179, 179, 179);
+  }
+
+  div[class^="col-"] img {
+    width: 75%;
+    height: 150px;
+  }
+
+  img:hover, img:active {
 
   }
 
+  div.col-1-1 {width: 100%;}
+  div.col-1-2 {width: 100%;}
+  div.col-1-3 {width: 100%;}
+  div.col-2-1 {width: 100%;}
+  div.col-2-2 {width: 100%;}
+  div.col-2-3 {width: 100%;}
 
-
-  a#navicon:hover+table.mnav, header table.mnav td:hover, header table.mnav td:active, header table.mnav:active {
-
-    display: block;
-
+  footer {
+    background-color: rgb(153, 153, 153);
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
 
-
-
-  section img {
-
-    display: none;
-
+  footer h2 {
+    text-decoration: underline;
+    font-size: 1.2em;
+    padding-bottom: 1.5%;
   }
 
-
-
-  footer{
-
-    -webkit-order: 100;
-
-    order: 100;
-
+  footer ul {
+    font-size: 1em;
   }
 
+  footer a {
+    color: rgb(255, 165, 0);
+    text-decoration: none;
+  }
 
+  footer > nav > ul > li > a:hover,
+  footer > nav > ul > li > a:active {
+    color: rgba(255, 255, 255, 0.6);
+  }
 
 }
 
-
-
 @media only screen and (min-width: 641px) {
 
-
-
-  table.mnav {
-
-    display: none;
-
+  body {
+    font-family: 'Verdana', Sans-serif;
+    background: rgb(179, 179, 179);
+    width: 100%;
+    max-width: 1100px;
+    min-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgb(0, 0, 0) 30px 0px 100px,
+                rgb(0, 0, 0) -30px 0px 100px;
   }
 
+  header h1 {
+      background: url("./banner.jpg") no-repeat fixed;
+      /*  */
+      background-repeat: round;
+      padding-top: 130px;
+      padding-bottom: 130px;
+  }
+
+  nav#top {
+      padding-top: 1%;
+      padding-bottom: 1%;
+  }
+
+  nav#top ul {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
 
 
-  header {
+      -webkit-flex-flow: row wrap;
+      flex-flow: row wrap;
+  }
 
-  background-image: url("header.jpg");
+  nav#top ul li {
+      font-size: 2.2em;
+      -webkit-flex: 1 1 130px;
+      flex: 1 1 130px;
+      font-size: 2em;
+  }
 
-  /* Image found on https://www.goodfreephotos.com */
+  body header a {
+    color: black;
+  }
 
+  body > header > nav > ul > li > a:hover,
+  body > header > nav > ul > li > a:active {
+    text-shadow: rgb(0, 0, 0) 5px 5px 10px;
+    color: rgba(255, 165, 0, 0.6);
+  }
+
+  section h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2em;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  main h1 {
+    border: 3px solid rgba(255, 165, 0, 0.6);
+    border-bottom: 3px solid grey;
+    text-align: center;
+    font-size: 1.3em;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+  }
+
+  main > div.grid_container > div.row > div[class^="col-"]:hover,
+  main > div.grid_container > div.row > div[class^="col-"]:active {
+    box-shadow: rgb(0, 0, 0) 5px 5px 10px;
+  }
+
+  div[class^="col-"] {
+    border: 6px inset rgb(191, 190, 190);
+    background: radial-gradient(rgb(153, 153, 153), rgba(255, 165, 0, 0.6));
+    text-align: center;
+    float: left;
+  }
+
+  div[class^="col-"] h2 {
+    font-size: 1.3em;
+    position: center;
+    text-decoration: underline;
+    padding-top: 1%;
+  }
+
+  div[class^="col-"] img {
+    max-height: 240px;
+    max-width: 1000px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border: inset 2px black;
+    border-radius: 10px;
+  }
+
+  main > div.grid_container > div.row > div[class^="col-"] > a > img:hover,
+  main > div.grid_container > div.row > div[class^="col-"] > a > img:active {
+    box-shadow: rgb(0, 0, 0) 5px 5px 10px;
+  }
+
+  div.col-1-1 {width: 33.33%;}
+  div.col-1-2 {width: 33.33%;}
+  div.col-1-3 {width: 33.33%;}
+  div.col-2-1 {width: 33.33%;}
+  div.col-2-2 {width: 33.33%;}
+  div.col-2-3 {width: 33.33%;}
+
+  footer {
+    height: 100%;
+    background-color: rgb(153, 153, 153);
+    text-align: center;
+    padding-bottom: 1%;
+  }
+
+  footer h2 {
+    padding-top: 55%;
+    padding-bottom: 1%;
+    text-decoration: underline;
+    font-size: 1.3em;
+  }
+
+  footer ul {
+    font-size: 1.1em;
+  }
+
+  footer a {
+    color: rgb(255, 165, 0);
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+
+  footer > nav > ul > li > a:hover,
+  footer > nav > ul > li > a:active {
+    color: rgba(255, 255, 255, 0.6);
   }
 
 }
