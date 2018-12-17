@@ -16,7 +16,6 @@ header h1 {
   margin-right: auto;
   text-align: center;
   color: white;
-  font-size: 3.5em;
 }
 
 nav#top ul li {
@@ -139,6 +138,8 @@ nav#top ul li {
     background-repeat: round;
     padding-top: 130px;
     padding-bottom: 130px;
+    line-height: 1em;
+    font-size: 5em;
   }
 
   nav#top {
@@ -159,10 +160,11 @@ nav#top ul li {
   }
 
   nav#top ul li {
-    font-size: 2.2em;
+    font-size: 2.5em;
     -webkit-flex: 1 1 130px;
     flex: 1 1 130px;
-    font-size: 2em;
+    padding-bottom: 1%;
+    border-bottom: 3px solid rgb(70, 70, 70);
   }
 
   body header a {
