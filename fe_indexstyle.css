@@ -30,6 +30,7 @@ nav#top ul li {
 
   header h1 {
     background-color: rgb(179, 179, 179);
+    font-size: 3em;
     line-height: 1em;
   }
 
@@ -64,12 +65,14 @@ nav#top ul li {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    background-color: rgb(115, 115, 115);
   }
 
   main h1, div[class^="col-"] h2 {
     padding-top: 1%;
     padding-bottom: 1%;
     font-size: 2em;
+    line-height: 1em;
   }
 
   div[class^="col-"] {
@@ -108,7 +111,7 @@ nav#top ul li {
   footer a {
     color: rgb(255, 165, 0);
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 
   footer > nav > ul > li > a:hover,
@@ -163,6 +166,7 @@ nav#top ul li {
     font-size: 2.5em;
     -webkit-flex: 1 1 130px;
     flex: 1 1 130px;
+    padding-top: 1%;
     padding-bottom: 1%;
     border-bottom: 3px solid rgb(70, 70, 70);
   }
@@ -180,18 +184,18 @@ nav#top ul li {
   section h1 {
     text-align: center;
     text-decoration: underline;
-    font-size: 2em;
+    font-size: 2.5em;
     padding-top: 1%;
-    padding-bottom: 1%;
+    padding-bottom: 1.5%;
   }
 
   main h1 {
     border: 3px solid rgba(255, 165, 0, 0.6);
     border-bottom: 3px solid grey;
     text-align: center;
-    font-size: 1.3em;
-    padding-top: 0.3%;
-    padding-bottom: 0.3%;
+    font-size: 2em;
+    padding-top: 1%;
+    padding-bottom: 1%;
   }
 
   main > div.grid_container > div.row > div[class^="col-"]:hover,
@@ -207,10 +211,10 @@ nav#top ul li {
   }
 
   div[class^="col-"] h2 {
-    font-size: 1.3em;
+    font-size: 2em;
     position: center;
     text-decoration: underline;
-    padding-top: 1%;
+    padding-top: 2%;
   }
 
   div[class^="col-"] img {
@@ -235,27 +239,30 @@ nav#top ul li {
   div.col-2-3 {width: 33.33%;}
 
   footer {
-    height: 100%;
     background-color: rgb(153, 153, 153);
     text-align: center;
     padding-bottom: 1%;
   }
 
   footer h2 {
-    padding-top: 55%;
-    padding-bottom: 1%;
+    padding-top: 57%;
+    padding-bottom: 3%;
     text-decoration: underline;
-    font-size: 1.3em;
+    font-size: 2.1em;
   }
 
   footer ul {
-    font-size: 1.1em;
+    font-size: 1.5em;
+  }
+
+  footer li {
+    padding-bottom: 2%;
   }
 
   footer a {
     color: rgb(255, 165, 0);
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   footer > nav > ul > li > a:hover,

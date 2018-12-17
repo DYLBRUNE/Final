@@ -19,10 +19,12 @@ nav#top ul li {
 
   body {
     width: 100%;
+    background-color: rgb(179, 179, 179);
   }
 
   header h1 {
     background-color: rgb(179, 179, 179);
+    font-size: 3em;
     line-height: 1em;
   }
 
@@ -155,7 +157,7 @@ nav#top ul li {
 @media only screen and (min-width: 641px) {
 
   html {
-    background: url('./brighthtml.jpg') no-repeat fixed 60% 0%;
+    background: url('../brighthtml.jpg') no-repeat fixed 60% 0%;
     /*  */
   }
 
@@ -209,6 +211,7 @@ nav#top ul li {
     font-size: 2.5em;
     -webkit-flex: 1 1 130px;
     flex: 1 1 130px;
+    padding-top: 1%;
     padding-bottom: 1%;
     border-bottom: 3px solid rgb(70, 70, 70);
   }
@@ -231,7 +234,7 @@ nav#top ul li {
   aside nav#leftNavigation ul li {
     border: 3px solid rgba(255, 165, 0, 0.6);
     border-radius: 10px;
-    width: 16.66%;
+    width: 33.33%;
     float: left;
     text-align: center;
     padding-top: 1%;
@@ -261,7 +264,7 @@ nav#top ul li {
   }
 
   aside#first {
-    padding-top: 7%;
+    padding-top: 15%;
   }
 
   aside#first img {
@@ -299,7 +302,7 @@ nav#top ul li {
 
   aside.text a {
     line-height: 2em;
-    font-size: 1.3em;
+    font-size: 1.6em;
     font-family: 'Times New Roman', Times, serif;
   }
 
@@ -308,7 +311,7 @@ nav#top ul li {
   }
 
   aside.text:last-of-type {
-    margin-bottom: 16%;
+    margin-bottom: 1%;
     line-height: 3em;
   }
 
@@ -320,20 +323,24 @@ nav#top ul li {
 
   footer h2 {
     background-color: rgb(153, 153, 153);
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 2%;
+    padding-bottom: 3%;
     text-decoration: underline;
-    font-size: 1.3em;
+    font-size: 2.1em;
   }
 
   footer ul {
-    font-size: 1.1em;
+    font-size: 1.5em;
+  }
+
+  footer li {
+    padding-bottom: 2%;
   }
 
   footer a {
     color: rgb(255, 165, 0);
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   footer > nav > ul > li > a:hover,
