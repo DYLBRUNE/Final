@@ -1,6 +1,13 @@
 @charset "utf-8";
-/*
 
+/*
+  Final
+
+  HTML Final
+  Author: Dylan Brune
+  Date: December 7, 2018
+
+  Filename: fe_print.html
 */
 
 /* Print Styles */
@@ -18,10 +25,6 @@ html, body, header, section, table {
 body {
   width: 100%;
   box-shadow: none;
-}
-
-table.mnav, table.nav, table.image, section img {
-  display: none;
 }
 
 /* Hypertext Styles */
@@ -43,7 +46,7 @@ aside {
   page-break-after: always;
 }
 
-ol, ul, img {
+ul, img {
   page-break-inside: avoid;
 }
 
@@ -53,19 +56,34 @@ p {
   orphans: 10;
 }
 
-/* Index */
+/* Styles */
 
 div.grid {
   display: block;
   clear: both;
 }
 
-div.column-1-2 {
+div[^="col"] {
   clear: both;
   width: 100%;
 }
 
-dd p{
+p{
+  widows: 10;
+  orphans: 10;
+}
+
+table#links {
+  display: block;
+  clear: both;
+}
+
+table#links tbody {
+  clear: both;
+  width: 100%;
+}
+
+th, tr, td {
   widows: 10;
   orphans: 10;
 }

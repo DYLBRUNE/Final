@@ -1,7 +1,20 @@
 @charset "utf-8";
-/*  */
+
+/*
+  Final
+
+  HTML Final
+  Author: Dylan Brune
+  Date: December 7, 2018
+
+  Filename: fe_skillstyle.html
+*/
+
+/* Import Style */
 
 @import url("../navicon.css");
+
+/* Header Style */
 
 header h1 {
   width: 100%;
@@ -11,16 +24,27 @@ header h1 {
   color: white;
 }
 
+/* Navigation Top Style */
+
 nav#top ul li {
   text-align: center;
 }
 
+/* ===============================
+	Mobile Styles up to 640 pixels
+   ===============================
+*/
+
 @media only screen and (max-width: 640px) {
+
+  /* Body Styles */
 
   body {
     width: 100%;
     background-color: rgb(179, 179, 179);
   }
+
+  /* Header Style */
 
   header h1 {
     background-color: rgb(179, 179, 179);
@@ -28,9 +52,13 @@ nav#top ul li {
     line-height: 1em;
   }
 
+  /* Navicon Styles */
+
   a#navicon {
     display: block;
   }
+
+  /* Navigation Top Style */
 
   nav#top {
     background-color: rgb(70, 70, 70);
@@ -40,6 +68,8 @@ nav#top ul li {
     color: rgb(255, 165, 0);
     font-size: 2.5em;
   }
+
+  /* Navigation Left Styles */
 
   aside nav#leftNavigation {
     width: 100%;
@@ -79,6 +109,8 @@ nav#top ul li {
   body > header > nav > ul > li:active {
     background-color: rgb(128, 128, 128);
   }
+
+  /* Aside Styles */
 
   aside#first img {
     width: 95%;
@@ -124,6 +156,8 @@ nav#top ul li {
     line-height: 3em;
   }
 
+  /* Footer Styles */
+
   footer {
     background-color: rgb(153, 153, 153);
     text-align: center;
@@ -154,12 +188,21 @@ nav#top ul li {
 
 }
 
+/* ============================================
+	Tablet and Desktop Devices: 641px or more
+   ============================================
+*/
+
 @media only screen and (min-width: 641px) {
+
+  /* HTML Styles */
 
   html {
     background: url('../brighthtml.jpg') no-repeat fixed 60% 0%;
-    /*  */
+    /* Image from https://pixabay.com/en/coding-computer-hacker-hacking-1841550/ */
   }
+
+  /* Body Styles */
 
   body {
     font-family: 'Verdana', Sans-serif;
@@ -174,9 +217,11 @@ nav#top ul li {
     rgb(0, 0, 0) -30px 0px 100px;
   }
 
+  /* Header Style */
+
   header h1 {
     background: url("../banner.jpg") no-repeat fixed;
-    /*  */
+    /* Image from https://pixabay.com/en/web-banner-abstract-internet-1012467/ */
     background-repeat: round;
     width: 100%;
     margin-left: auto;
@@ -188,6 +233,8 @@ nav#top ul li {
     line-height: 1em;
     font-size: 5em;
   }
+
+  /* Navigation Top Style */
 
   nav#top {
     padding-top: 1%;
@@ -226,6 +273,8 @@ nav#top ul li {
     color: rgba(255, 165, 0, 0.6);
   }
 
+  /* Navigation Left Styles */
+
   aside nav#leftNavigation {
     width: 100%;
     background-color: #999999;
@@ -262,6 +311,8 @@ nav#top ul li {
     text-shadow: rgb(0, 0, 0) 5px 5px 10px;
     color: rgba(255, 165, 0, 0.6);
   }
+
+  /* Aside Styles */
 
   aside#first {
     padding-top: 15%;
@@ -314,6 +365,8 @@ nav#top ul li {
     margin-bottom: 1%;
     line-height: 3em;
   }
+
+  /* Footer Styles */
 
   footer {
     background-color: rgb(153, 153, 153);
