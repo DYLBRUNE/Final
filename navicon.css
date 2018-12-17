@@ -11,7 +11,7 @@
 */
 
 a#navicon {
-    display: none;
+  display: none;
 }
 
 /* ===============================
@@ -21,16 +21,16 @@ a#navicon {
 
 @media only screen and (max-width: 640px) {
 
-    a#navicon {
-        display: block;
-    }
+  a#navicon {
+    display: block;
+  }
 
-    nav#top ul {
-        display: none;
-    }
+  nav#top ul {
+    display: none;
+  }
 
-    a#navicon:hover+ul, nav#top ul:hover {
-        display: block;
-    }
+  a#navicon:hover+ul, nav#top ul:hover {
+    display: block;
+  }
 
 }

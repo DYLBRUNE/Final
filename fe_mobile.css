@@ -1,0 +1,50 @@
+/*@charset "utf-8";
+
+/*
+
+*/
+
+/* Mobile Styles */
+/*
+@media only screen and (max-width: 640px) {
+
+  body {
+    width: 100%;
+    box-shadow: inset gray 10px 0px 25px, inset gray -10px 0px 25px;
+  }
+
+  a#navicon {
+    display: block;
+  }
+
+  table.mnav, table.nav, table.image {
+    display: none;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  a#navicon:hover+table.mnav, header table.mnav td:hover, header table.mnav td:active, header table.mnav:active {
+    display: block;
+  }
+
+  section img {
+    display: none;
+  }
+
+  footer{
+    -webkit-order: 100;
+    order: 100;
+  }
+
+}
+
+@media only screen and (min-width: 641px) {
+
+  table {
+    display: none;
+  }
+
+}
+*/

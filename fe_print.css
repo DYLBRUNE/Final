@@ -1,0 +1,71 @@
+@charset "utf-8";
+/*
+
+*/
+
+/* Print Styles */
+
+@page {
+  size: 8.5in 11in;
+  margin: 0.5in;
+}
+
+html, body, header, section, table {
+  background: none;
+  color: black;
+}
+
+body {
+  width: 100%;
+  box-shadow: none;
+}
+
+table.mnav, table.nav, table.image, section img {
+  display: none;
+}
+
+/* Hypertext Styles */
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a::after {
+  content: " (" attr(href) ") ";
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+/* Page Break Styles */
+
+aside {
+  page-break-after: always;
+}
+
+ol, ul, img {
+  page-break-inside: avoid;
+}
+
+p {
+  width:100%;
+  widows: 10;
+  orphans: 10;
+}
+
+/* Index */
+
+div.grid {
+  display: block;
+  clear: both;
+}
+
+div.column-1-2 {
+  clear: both;
+  width: 100%;
+}
+
+dd p{
+  widows: 10;
+  orphans: 10;
+}
